@@ -19,7 +19,7 @@ const Home = () => {
             <img
               src="/assets/research.png.jpeg"
               alt="Research & Development"
-              className="rounded-xl mb-4 w-full h-40 object-cover"
+              className="rounded-xl mb-4 w-full h-50 object-cover"
             />
             <h2 className="text-2xl font-semibold mb-4 text-blue-800">Research & Development</h2>
             <ul className="list-disc list-inside text-sm text-gray-700">
@@ -58,21 +58,25 @@ const Home = () => {
 
         {/* Publishing Assistance */}
         <Link href="/components/services">
-          <div className="bg-white shadow-xl rounded-2xl p-6 transform transition-all duration-300 hover:scale-105 hover:shadow-2xl cursor-pointer">
-            <img
-              src="/assets/publishing.jpeg"
-              alt="Publishing Assistance"
-              className="rounded-xl mb-4 w-full h-50 object-cover"
-            />
-            <h2 className="text-2xl font-semibold mb-4 text-blue-800">Publishing Assistance</h2>
-            <ul className="list-disc list-inside text-sm text-gray-700">
-              <li>Manuscript Preparation</li>
-              <li>Journal Selection</li>
-              <li>Submission Assistance</li>
-              <li>Editing and Proofreading</li>
-            </ul>
-          </div>
-        </Link>
+  <div className="bg-white shadow-xl rounded-2xl p-6 transform transition-all duration-300 hover:scale-105 hover:shadow-2xl cursor-pointer">
+    <div className="flex justify-center">
+      <img
+        src="/assets/publishing.jpeg"
+        alt="Publishing Assistance"
+        className="rounded-xl mb-5 w-60 h-50 object-cover"
+      />
+    </div>
+    <h2 className="text-2xl font-semibold mb-4 text-blue-800 text-center">
+      Publishing Assistance
+    </h2>
+    <ul className="list-disc list-inside text-sm text-gray-700">
+      <li>Manuscript Preparation</li>
+      <li>Journal Selection</li>
+      <li>Submission Assistance</li>
+      <li>Editing and Proofreading</li>
+    </ul>
+  </div>
+     </Link>
       </section>
 
       {/* Poster Image */}
@@ -88,6 +92,4 @@ const Home = () => {
 };
 
 export default Home;
-
-
 
