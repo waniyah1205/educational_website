@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <>
       <Head>
-        <title>Contact Us | Alpha Insights</title>
+        <title>Contact Us | AlphaInsights</title>
       </Head>
 
       <section className="bg-white text-gray-800 py-20">
@@ -12,9 +12,6 @@ const Contact = () => {
           {/* Header */}
           <div className="text-center mb-12">
             <h1 className="text-4xl font-bold text-blue-900">Contact Us</h1>
-            <p className="mt-4 text-lg text-gray-600">
-              Empowering Success Across Education, Business, and Beyond
-            </p>
           </div>
 
           {/* Contact Info + Map */}
