@@ -61,7 +61,7 @@ const Home = () => {
   <div className="bg-white shadow-xl rounded-2xl p-6 transform transition-all duration-300 hover:scale-105 hover:shadow-2xl cursor-pointer">
     <div className="flex justify-center">
       <img
-        src="/assets/publishing.jpeg"
+        src="/assets/publishing.png.jpeg"
         alt="Publishing Assistance"
         className="rounded-xl mb-5 w-60 h-50 object-cover"
       />
